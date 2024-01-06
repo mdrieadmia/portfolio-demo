@@ -208,3 +208,89 @@ header {
     line-height: 28px;
     width: 90%;
 }
+/* -----------Resume Section-------- */
+#resume{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.resume-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    margin-top: 110px;
+}
+.resume-col h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+.resume-item h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin: 30px 0 10px 0;
+}
+.resume-item h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+.resume-item p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 28px;
+    margin: 20px 0 30px 0;
+}
+.btn-cv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 120px 0;
+}
+/* --------- Footer Part -------- */
+footer{
+    padding:130px 230px ;
+    background: #FFF8F3;
+}
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+.footer-heading{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.footer-col p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.footer-col p span{
+    display: block;
+}
+.social-links{
+    display: flex;
+    justify-content: start;
+    gap: 25px;
+}
+.footer-col form input{
+    display: block;
+    width: 460px;
+    padding: 18px 30px;
+    background: #fff;
+    border: none;
+    margin-bottom: 24px;
+}
+.footer-col form textarea{
+    display: block;
+    width: 460px;
+    padding: 18px 30px;
+    background: #fff;
+    border: none;
+    margin-bottom: 24px;
+}
