@@ -1,0 +1,102 @@
+@media screen and (max-width:575.98px) {
+    .main_menu ul,
+    .menubar,
+    .banner,
+    .about-data-container,
+    .resume-row,
+    .skills-container,
+    .footer-row{
+        flex-direction: column;
+    }
+    .banner_text,
+    .menubar,
+    #about,
+    .resume-row,
+    .skills-container,
+    footer{
+        padding: 30px;
+    }
+    .banner{
+        padding: 0;
+    }
+    .main_menu ul,
+    .about-data-container{
+        gap: 20px;
+    }
+    .banner_text,
+    .footer-col form input,
+    .footer-col form textarea{
+        width: 100%;
+    }
+    header > div{
+        background: none;
+        margin: 0;
+    }
+    .banner_text h1{
+        font-size: 50px;
+    }
+    .banner_image img{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .banner_text button{
+        margin-bottom: 20px;
+    }
+    .main_menu ul{
+        margin-top: 30px;
+    }
+    .main_menu ul li{
+        text-align: center;
+    }
+}
+@media screen and (min-width:576px) and (max-width:991.98px) {
+    .main_menu ul,
+    .menubar,
+    .banner,
+    .about-data-container,
+    .resume-row,
+    .skills-container,
+    .footer-row{
+        flex-direction: column;
+    }
+    .banner_text,
+    .menubar,
+    #about,
+    .resume-row,
+    .skills-container,
+    footer{
+        padding: 30px;
+    }
+    .banner{
+        padding: 0;
+    }
+    .main_menu ul,
+    .about-data-container{
+        gap: 20px;
+    }
+    .banner_text,
+    .footer-col form input,
+    .footer-col form textarea{
+        width: 100%;
+    }
+    header > div{
+        background: none;
+        margin: 0;
+    }
+    .banner_text h1{
+        font-size: 50px;
+    }
+    .banner_image img{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .banner_text button{
+        margin-bottom: 20px;
+    }
+    .main_menu ul{
+        margin-top: 30px;
+    }
+    .main_menu ul li{
+        text-align: center;
+    }
+}

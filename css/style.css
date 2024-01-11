@@ -28,11 +28,15 @@
 }
 
 /* ------Navbar Part------- */
-header {
+header{
     background: #FFF8F3;
+
+}
+header > div {
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left center;
+    margin-left: 50px;
 }
 
 .menubar {
@@ -293,4 +297,7 @@ footer{
     background: #fff;
     border: none;
     margin-bottom: 24px;
+}
+.hide{
+    display: none;
 }
